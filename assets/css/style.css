@@ -1,0 +1,51 @@
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background: #ededed;
+	width: 960px;
+
+
+}
+
+header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	border-bottom: 2px solid #aca8a8;
+	width: 960px;
+
+}
+
+h1 {
+	float: left;
+	font-weight: bold;
+}
+
+h2 {
+	font-weight: bold;
+}
+
+h1 a {
+	float: left;
+}
+
+.clearfix::after { 
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main {
+	width: 650px;
+	float: left;
+}
+
+.sidebar {
+	width: 270px;
+	float: left;
+}
+
+#linkedin {
+	content: url(../images/linkedin.png);
+	width: 40px;
+	height: 40px;
+
+}
