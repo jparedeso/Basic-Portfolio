@@ -19,9 +19,14 @@ header {
 
 }
 
+main {
+	margin: 30px 0 0;
+	padding-bottom: 30px;
+}
+
 .content {
-	margin: 30px auto;
-	width: 50%;
+	margin: 0 auto;
+	width: 960px;
 }
 
 h1 {
@@ -35,16 +40,16 @@ h1 {
 
 nav {
 	padding: 27px;
-	margin-left: 600px;
+	margin-left: 675px;
 
 }
 
-a:link {
+nav a:link {
     text-decoration: none;
     color: #777777;
 }
 
-a:visited {
+nav a:visited {
     text-decoration: none;
     color: #777777;
 }
@@ -67,7 +72,7 @@ h3 {
 }
 
 .profilepic {
-	margin: 0 10px 10px 0;
+	margin: 0 20px 15px 0;
 }
 
 .about {
@@ -85,12 +90,13 @@ nav a {
 	clear: both;
 }
 
-.main {
+.mainContent {
 	width: 610px;
+	height: 100%;
 	margin-right: 20px;
 	float: left;
 	background-color: #ffffff;
-	padding: 20px;
+	padding: 20px 20px 80px;
 }
 
 .sidebar {
@@ -133,7 +139,11 @@ footer {
 	margin: 0;
 	height: 60px;
 	background-color: #666666;
-	color: #ffffff;
+/*	color: #ffffff;*/
+}
+
+footer p {
+	margin-top: 22px;
 }
 
 .input {
@@ -141,8 +151,30 @@ footer {
 }
 
 .links {
-	width: 100%;
-	margin: auto;
+	width: 70%;
+	margin: 10px auto;
+}
+
+.socialLnk {
+	/*width: 33.33333333333%;*/
+	display: inline-block;
+}
+
+.portimages {
+	height: 200px;
+	width: 250px;
+}
+
+.porttitles {
+	position: absolute;
+	font-weight: bold;
+	background-color: #4aaaa5;
+}
+
+.portgroups {
+	height: 200px;
+	width: 250px;
+	margin-top: 20px;
 }
 
 input[type=submit] {
