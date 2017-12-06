@@ -71,7 +71,7 @@ h3 {
 	border-bottom: 2px solid #dddddd;
 }
 
-.profilepic {
+.profilePic {
 	margin: 0 20px 15px 0;
 }
 
@@ -160,18 +160,18 @@ footer p {
 	display: inline-block;
 }
 
-.portimages {
-	height: 200px;
-	width: 250px;
+.portImages {
+	height: 130px;
+	width: 150px;
 }
 
-.porttitles {
+.portTitles {
 	position: absolute;
 	font-weight: bold;
 	background-color: #4aaaa5;
 }
 
-.portgroups {
+.portGroups {
 	height: 200px;
 	width: 250px;
 	margin-top: 20px;
