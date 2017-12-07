@@ -39,11 +39,14 @@ nav a:link, nav a:visited{
     text-decoration: none;
     color: #777777;
     margin-left: 15px;
+    font-weight: 500;
 }
 
 nav a:hover {
     color: 	#1E90FF;
-    font-weight: bold; 	
+    font-weight: 500;
+    opacity: 0.8;
+
 }
 
 h1 {
@@ -151,7 +154,7 @@ footer {
 	height: 60px;
 	border-top: 10px solid #4aaaa5;
 	background-color: #666666;
-	color: #ffffff;
+	color: #d5cdcd;
 }
 
 footer p {
